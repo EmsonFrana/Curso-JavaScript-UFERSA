@@ -1,17 +1,15 @@
 // 1 . PEÇA PARA O USUÁRIO DIGITAR SUA DATA DE NASCIMENTO, VERIFIQUE SE ELE É DE MAIOR E INFORME SE É OU NÃO;
 const dataNacinimento = parseInt(prompt('Infome ano de nascimento de nacimento: '))
-const idade = 2023 - dataNacinimento 
+const anoAtual = parseInt(prompt('Qual o ano atual'))
+const idade = anoAtual - dataNacinimento 
 
 if(idade >= 0 && idade  < 18 ) {
-    alert(`Você tem ${idade} de idade, menor de idade!`)
     console.log(`Você tem ${idade} de idade, menor de idade!`);
 }
 else if(idade >= 18) {
-    alert(`Você tem ${idade} de idade, maior de idade!`)
     console.log(`Você tem ${idade} de idade, maior de idade!`);
 }
 else{
-    alert("ERRO")
     console.log('ERRO');
 }
 
@@ -19,30 +17,30 @@ else{
 
 const numero = parseInt(prompt(`Infoeme um número de 1 à 7`))
 if(numero <= 0 || numero > 7 ){
-    alert(`Número inválido`)
+    console.log(`Número inválido`)
 }
 else{
         switch (numero) {
         case 1:
-            alert(`Segunda-Feira!`)
+            console.log(`Segunda-Feira!`)
             break;
         case 2:
-            alert(`Terça-Feira!`)
+            console.log(`Terça-Feira!`)
             break;
         case 3:
-            alert(`Quarta-Feira!`)
+            console.log(`Quarta-Feira!`)
             break;
         case 4:
-            alert(`Quinta-Feira!`)
+            console.log(`Quinta-Feira!`)
             break;
         case 5:
-            alert(`Sexta-Feira!`)
+            console.log(`Sexta-Feira!`)
             break;
         case 6:
-            alert(`Sabádo!`)
+            console.log(`Sabádo!`)
             break;
         case 7:
-            alert(`Dmingo!`)
+            console.log(`Dmingo!`)
             break;
 
         default:
@@ -56,20 +54,20 @@ else{
 const mes = parseInt(prompt(`Digite um número de 01 á 12 para os meses:`))
 const dia = parseInt(prompt(`Digite um número de 01 à 31 para os dias dos meses`))
 if(dia <= 0 || mes <= 0){
-    alert('Dia ou mes invalido')
+    console.log('Dia ou mes invalido')
 }
-else if(mes === 03 || dia === 07){
-    alert(`Wow, a data infomada é o dia da aula`)
+else if(mes === 03 && dia === 07){
+    console.log(`Wow, a data infomada é o dia da aula`)
 }
-else alert('ERRO')
+else console.log('ERRO')
 
 //4. PEÇA PARA O USUÁRIO DIGITAR UM MÊS (1 A 12) E UM DIA (1 A 31), VERIFIQUE SE UM DOS DOIS É IGUAL A DATA DA AULA (07/03), CASO NENHUM SEJA IGUAL, RETORNE UM ERRO PARA O USUÁRIO;
 const mes1 = parseInt(prompt(`Digite um número de 01 á 12 para os meses:`))
 const dia1 = parseInt(prompt(`Digite um número de 01 à 31 para os dias dos meses`))
 if(dia1 <= 0 || mes1 <= 0){
-    alert('Dia ou mes invalido')
+    console.log('Dia ou mes invalido')
 }
-else if(mes1 === 03 && dia1 === 07){
-    alert(`Wow, a data infomada é o dia da aula`)
+else if(mes1 === 03 || dia1 === 07){
+    console.log(`Wow, a data infomada é o dia da aula`)
 }
-else alert('ERRO')
+else console.log('ERRO')
