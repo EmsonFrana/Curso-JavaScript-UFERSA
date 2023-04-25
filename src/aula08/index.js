@@ -16,20 +16,28 @@
 
 // document.write(`A soma de ${x} + ${y} = ${resultado}`)
 
-//na função abaixo só será executada quando chegar nela(função anonima)
+// na função abaixo só será executada quando chegar nela(função anonima)
 // const soma = function(a,b) {
 //     document.write(a + b)
 // }
 
 // soma(10,45)
-//acessando o tag button no html
+// acessando o tag button no html
 // let botao = document.querySelector('#id')
 
 // botao.addEventListener('click', function(){
 //     alert("la ele")
 // })
-//arrow function
-const soma = (a,b)=>{
-    return a +b
+// arrow function
+// const soma = (a,b)=>{
+//     return a +b
 
-document.write(soma)}
+// document.write(soma)}
+
+// const meuArray = ['one','two','three','four']
+// const aluno = {
+//     name: 'emson',
+//     old: 24,
+//     id:2019011368
+// }
+// console.log(`Name of guy: ${aluno.name}`)
