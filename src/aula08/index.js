@@ -35,9 +35,38 @@
 // document.write(soma)}
 
 // const meuArray = ['one','two','three','four']
-// const aluno = {
-//     name: 'emson',
-//     old: 24,
-//     id:2019011368
-// }
-// console.log(`Name of guy: ${aluno.name}`)
+// const aluno =[
+//     {
+//         name: 'emson',
+//         old: 24,
+//         id:2019011368,
+//         celular: {
+//             marca: 'LG',
+//             memoria: '32g'
+//         },
+//         computator: {
+//             marca: 'positivo',
+//             memoria: '256gb',
+//             ram: '4g'
+//         }
+//     },
+//     {
+//         name: 'Gerliano',
+//         idade: 27,
+//         celular: {
+//             marca:'Xiaomi',
+//             memoria: '128gb',
+//         }
+//     }
+// ]
+// console.log(`${aluno[0].celular.marca}`)
+// console.log(`Aluno1 ${aluno[0].celular.marca}`);
+// console.log(`Aluno2 ${aluno[1].celular.memoria}`);
+
+const pessoa = {
+    name: 'emson',
+    idade:24
+}
+
+const chave = Object.values(pessoa)
+console.log(chave);
