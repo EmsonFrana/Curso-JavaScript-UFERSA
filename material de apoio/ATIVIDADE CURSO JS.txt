@@ -1,0 +1,35 @@
+REGRA:
+ESCOLHA 6 QUESTÕES DA 1 À 10 E FAÇA
+QUESTÕES DA 11 À 14 SÃO OBRIGATÓRIAS
+
+
+1. Crie um programa que peça ao usuário para digitar um número inteiro e, em seguida, verifique se o número é par ou ímpar. Imprima o resultado no console.
+
+2. Crie um programa que peça ao usuário para digitar dois números e, em seguida, calcule a soma, subtração, multiplicação e divisão desses números. Imprima os resultados no console.
+
+3. Crie um programa que peça ao usuário para digitar uma frase e, em seguida, conte quantas vezes a letra "a" aparece na frase. Imprima o resultado no console.
+
+4. Crie um programa que peça ao usuário para digitar uma lista de números separados por vírgula. Em seguida, converta essa lista em um array e calcule a média dos números. Imprima o resultado no console.
+
+5. Crie um programa que peça ao usuário para digitar uma palavra e, em seguida, verifique se a palavra é um palíndromo. Um palíndromo é uma palavra que pode ser lida da mesma forma da esquerda para a direita e da direita para a esquerda. Imprima o resultado no console.
+
+6. Crie um programa que peça ao usuário para digitar um número e, em seguida, calcule o fatorial desse número. O fatorial de um número é o produto de todos os números inteiros positivos de 1 até esse número. Por exemplo, o fatorial de 5 é 5 x 4 x 3 x 2 x 1 = 120. Imprima o resultado no console.
+
+7. Crie um programa que peça ao usuário para digitar o nome, idade e cidade onde mora. Em seguida, crie um objeto com essas informações e imprima o objeto no console.
+
+8. Crie um programa que peça ao usuário para digitar um número e, em seguida, imprima todos os números primos até esse número.
+
+9. Crie um programa que peça ao usuário para digitar uma lista de números separados por vírgula e, em seguida, ordene os números em ordem crescente e imprima a lista ordenada no console.
+
+10. Crie um programa que peça ao usuário para digitar um número inteiro e, em seguida, imprima os números de 1 a esse número no console. Se o número for múltiplo de 3, imprima "ZZZ" em vez do número. Se o número for múltiplo de 5, imprima "XXXXX" em vez do número. Se o número for múltiplo de 3 e 5, imprima "XXXZZZZZ" em vez do número.
+
+11. Crie um programa que peça ao usuário para digitar uma lista de números separados por vírgula. Em seguida, crie uma função que encontre o segundo maior número da lista e o imprima no console.
+
+12. Crie um programa que peça ao usuário para digitar um texto e, em seguida, crie uma função que conte quantas vezes cada palavra aparece no texto. Armazene o resultado em um objeto e imprima o objeto no console.
+
+13. Crie um programa que peça ao usuário para digitar uma lista de nomes separados por vírgula. Em seguida, crie uma função que ordene os nomes por ordem alfabética e imprima a lista ordenada no console.
+
+14. Crie um programa que peça ao usuário para digitar o nome, idade, número de celular e cidade onde mora. Em seguida, crie um objeto com essas informações E PERGUNTE se ele quer alterar AS INFORMAÇÕES, caso ele queira, imprima o que ele já digitou e peça para ele alterar, depois imprima o objeto antes e depois no console.
+
+
+
